@@ -61,10 +61,8 @@ browse
 ```stata
 count
 ```
-
-
 ```
-2,246 of observations
+In total there are 2,246 of observations
 ```
 
 #### 1.6: Relabel the Variable "south"
@@ -99,8 +97,6 @@ Compute the mean, standard deviation, 10th percentile, 25th percentile, and medi
 ```stata
 tabstat wage, stats(N mean sd p10 p25 p50)
 ```
-
-*Sample output:*
 
 ```
     Variable |         N      Mean        SD       p10       p25       p50
