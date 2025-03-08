@@ -1,5 +1,3 @@
-```markdown
-```
 This document details the Stata analysis steps for the nlsw88 dataset, which contains information on a group of women in their 30s and early 40s to study labor force patterns. The code for each step or question is shown below.
 ---
 ### Q1: Browse and Analyze the Dataset
@@ -378,5 +376,4 @@ scatter wage hours, mlabel(occupation) xlabel(, angle(45)) ylabel(, angle(0)) //
     title("Relationship Between Average Wage and Hours by Occupation") ///
     xtitle("Average Hours Worked") ytitle("Average Hourly Wage")
 graph export "Average-wage-and-usual-occupation-hours.png", as(png) replace
-```
-```
+
