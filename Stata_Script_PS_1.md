@@ -20,8 +20,6 @@ sysuse nlsw88.dta, clear
 describe, fullnames
 ```
 
-*Sample output:*
-
 ```
 Contains data from C:\Program Files\Stata18\ado\base/n/nlsw88.dta
  Observations:         2,246                  NLSW, 1988 extract
@@ -64,7 +62,6 @@ browse
 count
 ```
 
-*Sample output:*
 
 ```
 2,246 of observations
@@ -83,8 +80,6 @@ label values south south_test
 ```stata
 tab south
 ```
-
-*Sample output:*
 
 ```
    Lives in |
@@ -126,7 +121,6 @@ Create a new variable `wage_group` that takes the value "1" if an individual ear
 summarize wage
 ```
 
-*Sample output:*
 
 ```
     Variable |        Obs        Mean    Std. dev.       Min        Max
@@ -162,7 +156,6 @@ label values wage_group group_test
 tab wage_group
 ```
 
-*Sample output:*
 
 ```
  wage_group |      Freq.     Percent        Cum.
@@ -181,7 +174,6 @@ tab wage_group
 tab occupation wage_group, col
 ```
 
-*Sample output:*
 
 ```
 +-------------------+
